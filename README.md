@@ -2,6 +2,17 @@
 
 
 ## Instructions on how to run the Web Application 
+These are the instructions on how to run the web application
+
+1. Clone this repo
+2. Open the folder in vscode
+3. Select interpreter as Python 3.7.4 'env' which is also included in the folder as your virtual environment. No need to inlcude any other dependencies
+4. go to the command shell and type in `set FLASK_APP = scheduler.py`
+5. go to the command shell and type in `flask run`
+6. the application is already configured with an admin as well as several employees
+7. to login as admin {user = john, password = hello}
+8. to login as employee {user = moe, password = sign}
+9. new employee users can be registered by clicking on the registration link.
 
 
 
